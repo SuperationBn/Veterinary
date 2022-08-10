@@ -44,6 +44,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 				return (document.querySelector("#errorMensaje").style.display = "none");
 			}, 3000);
 			//
+			return;
 		}
 
 		if (paciente.id) {
